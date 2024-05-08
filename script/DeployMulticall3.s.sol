@@ -14,7 +14,7 @@ contract MulicallScript is Script {
         vm.startBroadcast(deployerPrivateKey);
 
         new Multicall3();
-        vm.stopBroadcast()
+        vm.stopBroadcast();
     }
 
 }
