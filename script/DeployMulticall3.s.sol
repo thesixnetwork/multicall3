@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import "forge-std/Script.sol";
 import { Multicall3 } from "../src/Multicall3.sol" ;
 
-contract MulicallScript is Script {
+contract MulticallScript is Script {
 
     function setUp() public  {
     }
